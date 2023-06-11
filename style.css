@@ -1,0 +1,237 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+
+    width: 100%;
+    height: 400px;
+}
+
+figure img{
+    width: 490px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.318)
+}
+#all{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: auto;
+}
+header{
+    width: 100%;
+    float: left;
+    height: 250px;
+    background-color: #763133;
+    background-image: url(image/voiture1.jpg);
+    background-size: 100% 250px;
+
+}
+
+header h1{
+
+    color: #ffffff;
+    text-align: center;
+    margin: 50px;
+}
+nav{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #d6090d;
+}
+
+nav ul{
+
+    width: 100%;
+    float: left;
+    list-style-type: none;
+
+}
+
+nav li{
+
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+nav li ul li{
+    display: none;
+    background-color: #d6090d;
+    width: 100%;
+}
+
+nav li:hover ul li{
+    display: block;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    border-right: 1px solid #ffffff;
+}
+
+nav li:last-child a{
+    border: none;
+}
+
+nav a:hover{
+    background-color: aquamarine;
+}
+article{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+#cont img{
+width: 230px;
+height: 140px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    height: 120px;
+    background-color: #B4B73F;
+    padding: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#pic a{
+    color: rgba(27, 27, 27, 1.00);
+    text-decoration: none;
+}
+
+#pic a:hover{
+    text-decoration: underline;
+}
+
+h2{
+margin-bottom: 3%;
+}
+
+p{
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 28px;
+}
+
+figure{
+    float: left;
+    margin: 3%;
+}
+
+figcaption{
+
+background-color: #530606;
+height: 60px;
+text-align: center;
+font-size: 15px;
+}
+
+.form{
+
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgb(52, 7, 214);
+    border-radius: 11px;
+}
+
+h3{
+    color: red;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
+
+#pic{
+    width: 30%;
+    background-color: rgb(228, 222, 222);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+
+@media screen and (max-width: 800px){
+   
+    
+#all{
+    width: 100%;
+}
+
+header{
+    height: 145px;
+}
+
+nav li ul li{
+    background-color: antiquewhite;
+}
+
+}
+
+@media screen and (max-width: 480px){
+   
+    header{
+        height: 0px;
+    }
+    
+
+    nav{
+
+        height: auto;
+    }
+nav li{
+    width: 100%;
+}
+
+nav a{
+
+    border-bottom: 1px solid #ffffff;
+}
+
+#cont{
+
+display: block;
+}
+
+#pic{
+
+    width: 90%;
+    margin: 0% auto 5% auto;
+}
+
+#cont img{
+    width: 100%;
+}
+
+}
+
